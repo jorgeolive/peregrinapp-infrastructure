@@ -1,0 +1,1966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Caminos de Santiago</name>
+    <Style id="icon-1602-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1602-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1602-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1602-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1602-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1602-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>albergue monterrey en Santiago de Compostela</name>
+      <description>https://www.booking.com/hotel/es/albergue-monterrey.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5286513,42.8862673,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Monte do Gozo</name>
+      <description>https://www.booking.com/hotel/es/benvido-monte-do-gozo.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5008866,42.8863689,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Credencial en Santiago de Compostela</name>
+      <description>https://www.booking.com/hotel/es/albergue-turistico-la-credencial.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5322001,42.8852556,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue SIXTOs no Caminho</name>
+      <description>https://www.booking.com/hotel/es/albergue-sixtos-no-caminho-santiago-de-compostela.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5332358,42.8849069,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Estrella de Santiago</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5339527,42.8831024,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Alda O Fogar de Teodomiro</name>
+      <description>https://www.booking.com/hotel/es/o-fogar-de-teodomiro.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5421263,42.8825481,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Azabache</name>
+      <description>https://www.booking.com/hotel/es/albergue-azabache-santiago-de-compostela.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.543527,42.881209,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Seminario Menor</name>
+      <description>https://www.booking.com/hotel/es/albergue-seminario-menor.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5366016,42.8767081,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thostel Albergue</name>
+      <description>https://www.booking.com/hotel/es/thostel.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5466392,42.8936418,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Santiago KM0</name>
+      <description>https://www.booking.com/hotel/es/santiago-km0.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5468779,42.8812541,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue la Estacion</name>
+      <description>https://www.booking.com/hotel/es/albergue-la-estacion.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5459661,42.8684436,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Fin del Camino</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5235271,42.8855895,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue A Fonte de Compostela</name>
+      <description>https://www.booking.com/hotel/es/a-fonte-de-compostela.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5262011,42.8865766,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>albergue SANTO SANTIAGO</name>
+      <description>https://www.booking.com/hotel/es/albergue-santo-santiago.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5258473,42.8871937,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Santos</name>
+      <description>https://www.booking.com/hotel/es/albergue-santos.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5339742,42.8836091,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Porta Real</name>
+      <description>https://www.booking.com/hotel/es/albergue-porta-real.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5343922,42.8821329,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Para Peregrinos Y Gente Sin Recursos XoamXXIII</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5449024,42.8843316,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue SCQ</name>
+      <description>https://www.booking.com/hotel/es/albergue-scq.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.5327737,42.8851931,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALBERGUE O FERVELLO</name>
+      <description>https://www.booking.com/hotel/es/albergue-o-fervello.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.4489734,42.8915138,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALBERGUE EDREIRA</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3605423,42.9037361,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue O Trisquel</name>
+      <description>https://www.booking.com/hotel/es/albergue-o-trisquel.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3601155,42.9054494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue O Burgo</name>
+      <description>https://www.booking.com/hotel/es/albergue-o-burgo.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3589461,42.9091915,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Espiritu Xacobeo</name>
+      <description>https://www.booking.com/hotel/es/albergue-espiritu-xacobeo-o-pedrouzo.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3502304,42.9138847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de Santa Irene</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3357829,42.9183211,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El Albergue de BONI</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.2800938,42.9264153,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Rural Astrar</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.337719,42.911781,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Rem</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3628407,42.9033145,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Otero</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3633295,42.9050763,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALBERGUE PORTA DE SANTIAGO</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3614963,42.9052576,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Mirador de Pedrouzo</name>
+      <description>https://www.booking.com/hotel/es/mirador-de-pedrouzo.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3599713,42.9069138,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos Arca</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3587778,42.9071758,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Parrillada Andaina</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.3232704,42.9155015,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pensión Albergue Turístico Salceda</name>
+      <description>https://www.booking.com/hotel/es/complejo-turistico-salceda.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.2755506,42.9220617,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pensión Albergue Alborada</name>
+      <description>https://www.booking.com/hotel/es/pension-albergue-alborada.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.280563,42.926184,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue A Ponte de Ferreiros</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.2431664,42.9160969,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Pensión Camiño das Ocas</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.2069444,42.9216667,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Taberna Vella, Albergue - Heidi´s place</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.2144991,42.928482,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue San Francisco en Arzúa</name>
+      <description>https://www.booking.com/hotel/es/albergue-san-francisco.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1635899,42.92613,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Los Caminantes 2 Arzúa</name>
+      <description>https://www.booking.com/hotel/es/albergue-los-caminantes-2-arzua.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.165073,42.927142,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Don Quijote</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1553011,42.9290276,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Turístico Arzúa</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1591479,42.9271451,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Ultreia</name>
+      <description>https://www.booking.com/hotel/es/albergue-ultreia.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1557169,42.9288749,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>De Camino Albergue</name>
+      <description>https://www.booking.com/hotel/es/de-camino.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.15616,42.9286699,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>O Albergue deSelmo</name>
+      <description>https://www.booking.com/hotel/es/o-albergue-de-selmo.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1541153,42.9297172,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Los Tres Abetos</name>
+      <description>https://www.booking.com/hotel/es/los-tres-abetos.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.152981,42.9300165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Santiago Apóstol</name>
+      <description>https://www.booking.com/hotel/es/albergue-santiago-apostol.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1555621,42.9291878,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Municipal de Arzúa</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1625286,42.9262896,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Pensión Cima do lugar</name>
+      <description>https://www.booking.com/searchresults.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.160628,42.9270263,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue da Fonte</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1643038,42.9262543,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Vía Láctea</name>
+      <description>https://www.booking.com/hotel/es/albergue-via-lactea-arzua.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1640425,42.9254353,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue, pisos y Habitaciones Privadas Lecer (Nueva Administración)</name>
+      <description>https://www.booking.com/hotel/es/albergue-lecer-coruna.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.0216873,43.041936,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casa Roxica Albergue albergue</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.9118468,43.0662797,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de Boimorto</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -8.126287,43.0122311,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue-hostel Casa da Gándara</name>
+      <description>https://www.booking.com/hotel/es/casa-da-gandara.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -8.1344985,42.9997596,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue a Lagoa</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.8243454,43.117165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue As Pedreiras Vilalba</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.682221,43.299174,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Witericus</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.8249888,43.1325706,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue O Xistral</name>
+      <description>https://www.booking.com/hotel/es/albergue-o-xistra.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.5332903,43.3451335,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Goas</name>
+      <description>https://www.booking.com/hotel/es/goas.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.4745866,43.3636338,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de Gontán</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.4684365,43.3677906,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue O Vilar</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.3780043,43.3965508,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de Mondoñedo</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.3661313,43.4279315,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Lumen</name>
+      <description>https://www.booking.com/hotel/es/lumen-albergue.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.362674,43.4288789,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Savior - Alojamiento en Lorenzana</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.2997265,43.4735772,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Triskel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.2997278,43.4727487,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pensión Albergue O Pedregal</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.2996087,43.4712836,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de Gondán</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.2392185,43.4872086,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Viruxe</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.0508274,43.5334709,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue A Ponte</name>
+      <description>https://www.booking.com/hotel/es/albergue-ribadeo-a-ponte.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.0403836,43.5397068,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Mar y Montaña</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.0519716,43.4617739,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue río Eo</name>
+      <description>https://www.booking.com/hotel/es/hostel-rio-eo-albergue.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.0389535,43.5359243,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Camino Norte</name>
+      <description>https://www.booking.com/hotel/es/albergue-camino-norte.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.0133864,43.5427949,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de Tapia</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.9392646,43.5698573,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Xana</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.8263312,43.5503458,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue San Roque De Navia</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.7202631,43.539284,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Municipal de Peregrinos Piñera Navia Asturias</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.6743023,43.5442268,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue casa Lua</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.5592259,43.5307773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Villa de Luarca</name>
+      <description>https://www.booking.com/hotel/es/albergue-de-peregrinos-villa-de-luarca.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -6.5342903,43.54293,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Algergue Aldin</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.5236956,43.5288178,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Yalga</name>
+      <description>https://www.booking.com/hotel/es/albergue-quot-la-yalga-quot.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4438991,43.5470886,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel Canero - Restaurante y Albergue</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4662227,43.5462899,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Novellana</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.2896015,43.5577519,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de Peregrinos Soto de Luiña</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.2311913,43.5632742,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos San Martín de Laspra</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.9704257,43.5702301,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos Pedro Solís</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.9194018,43.5511916,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Larena</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.0735802,43.5540289,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos San Martín de Laspra</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.9704257,43.5702301,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue El Congreso</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.4326817,43.4810422,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Villaviciosa</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.4347319,43.4814717,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Tu Casa Vega</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.1275649,43.4765257,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de La Isla</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.2276964,43.4845619,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de Peregrinos de San Esteban</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.1107317,43.4644816,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hostel Gijón Centro</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.6633444,43.5437049,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GoodHouse Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.6660958,43.5417232,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gijón Surf Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.6371276,43.5461292,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casa Carmina Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.0982492,43.5407453,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casa del Peregrino</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.6019846,43.5380505,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Municipal De Serin</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.814423,43.5015543,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Rectoral de Priesca</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.3583153,43.4850247,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Juvenil - Roberto Frassinelli</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -5.066551,43.4652419,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Casona</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.8118543,43.4252597,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Valmori</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.8301232,43.4242116,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Casona del Peregrino</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.7567416,43.4217652,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Estación</name>
+      <description>https://www.booking.com/hotel/es/albergue-la-estacia3n.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -4.759093,43.4209819,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[ALBERGUE RESIDENCIA JUVENIL "JUVENTUDES" - LLANES]]></name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.7594991,43.4239805,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Llanes International Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.7846408,43.4242639,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue sidreria</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.6674632,43.396418,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Santa Marina</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.61669,43.39193,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Bar Castiellu</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.6366651,43.3966103,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de San Vicente de la Barquera</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.4028971,43.3842329,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Huella del Camino</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.2879062,43.3840744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de Peregrinos La Peña Comillas</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.2921912,43.3869,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALBERGUE DE CÓBRECES</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.2117746,43.3855234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue El Pino</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.2020053,43.3845118,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALBERGUE VIEJO LUCAS</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.2084217,43.3821959,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de Peregrinos Izarra</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.1605552,43.3998393,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Gandara</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.1082849,43.3893547,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Municipal de peregrinos Jesús Otero</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.1051455,43.3916704,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bungalows Albergue David Park</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.1124028,43.3934819,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Osa de Andara</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.0790886,43.3810234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Paradiso Cantabria</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.049837,43.406193,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos Clara Campoamor</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.0272855,43.3897113,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue El Pico de Santillana</name>
+      <description>https://www.booking.com/hotel/es/el-pico-de-santillana-surfelpico.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -4.0958284,43.3737009,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Piedad</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.9464159,43.4311981,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos Santos Mártires</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.809508,43.460397,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hostel Royalty</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.808547,43.4596219,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santander Central Hostel</name>
+      <description>https://www.booking.com/hotel/es/santander-central-hostel.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.810084,43.4587434,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hostel Santander</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.802184,43.462116,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Casa Vacas</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.6772321,43.4552902,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Cabaña del Abuelo Peuto</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.6453898,43.4479053,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue juvenil de Loredo</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.7216768,43.4627567,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Cala | Albergue en Loredo - Cantabria</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.7134545,43.4654925,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue De Meruelo</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.6001956,43.4676313,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Noja Aventura</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.5069312,43.4713788,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Turistico Playa de Berria</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.4678659,43.4627192,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>albergue turistico la bilbaina</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.4561638,43.4432334,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de Liendo</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.3810968,43.3942093,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Complejo T.D. "El Albergue"]]></name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.4661689,43.443985,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Tu Camino de Ontón</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.1718076,43.3505299,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de Pobeña</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.1247383,43.3448116,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Bide Ona</name>
+      <description>https://www.booking.com/hotel/es/bide-ona.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.0234379,43.3186715,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de Peregrinos de Santullán</name>
+      <description>https://www.booking.com/hotel/es/albergue-de-santullan-castro-urdiales.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.2106713,43.3471489,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALL IRON HOSTEL</name>
+      <description>https://www.booking.com/hotel/es/all-iron-hostel.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.9124852,43.2597131,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HOSTEL Quartier Bilbao</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.9235286,43.256224,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Poshtel Bilbao - Premium Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.931641,43.2668825,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bilbao Akelarre Hostel</name>
+      <description>https://www.booking.com/hotel/es/bilbao-akelarre-hostel-bilbao.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.9546732,43.2687636,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Botxo Gallery - Youth Hostel Bilbao</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.933323,43.2701893,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bilbao Central Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.9343206,43.2590293,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Eskerika</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.7410988,43.2888447,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Mekaur</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.7480229,43.3152353,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Andiketxe</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.6351147,43.2867026,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Usandi</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.5498096,43.2503306,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Izarbide aterpetxea</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.3862909,43.2935415,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Estación de tren y albergue de Deba</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.355412,43.2936034,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Convento de San José</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.2586826,43.2967789,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de Getaria - Kanpaia Aterpetxea</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.21001,43.30292,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hostel Txalupa Getaria</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.2048664,43.3028388,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Galerna Zarautz Hostel</name>
+      <description>https://www.booking.com/hotel/es/galerna-aterpetxea.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.165122,43.2833914,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>blai blai hostel</name>
+      <description>https://www.booking.com/hotel/es/blai-blai.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.1657217,43.2860038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue juvenil Ondarreta - La Sirena</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.0074557,43.3146619,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Koisi Hostel</name>
+      <description>https://www.booking.com/hotel/es/koisi-hostel.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.0010101,43.3110321,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SURFING ETXEA Surf Hostel San Sebastián</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.9736278,43.3248422,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hostel San Fermín</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.9848306,43.3231696,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Juvenil Ulia</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.9623389,43.328327,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gold Coast Donosti Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.9653462,43.321142,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de Peregrinos de Irun - Erromesen aterpetxea</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.800409,43.345263,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALBERGUE ERLETXE ATERPEA</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -1.8586812,43.3253925,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue San Martín Aterpetxea</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.1221671,43.278717,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue los Padres Carmelitas</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -2.4987163,43.2667847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de Peregrinos de Isla (Cantabria)</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -3.5699155,43.4928239,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue La Portilla</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -4.7544339,43.4104322,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Buen Camino in San Esteban de Pravia</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.0882364,43.5508739,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue de peregrinos de Baamonde</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.7573759,43.1749117,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue San Martin - Miraz</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.8400282,43.113655,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Municipal de A Cabana</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -7.9204663,43.0653176,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue a Carballeira</name>
+      <description>https://www.booking.com/hotel/es/albergue-a-carballeira.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.67896,43.30291,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lar Xabarin, S.L.</name>
+      <description>https://www.booking.com/hotel/es/albergue-xabarin.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.473822,43.364183,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel - Restaurante Montero</name>
+      <description>https://www.booking.com/hotel/es/el-albergue-del-montero.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.3621023,43.4334399,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hostal Restaurante Padornelo</name>
+      <description>https://www.booking.com/hotel/es/hostal-padornelo.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.36184,43.43296,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Castelos Lourenzá</name>
+      <description>https://www.booking.com/hotel/es/albergue-castelos-lorenzana.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.2986639,43.4692105,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HOSTEL TEU SITIO</name>
+      <description>https://www.booking.com/hotel/es/o-teu-sitio.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.0613765,43.5393534,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hostel Namor</name>
+      <description>https://www.booking.com/hotel/es/hostel-namor.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -7.0392899,43.5373858,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casa La Concha</name>
+      <description>https://www.booking.com/hotel/es/albergue-peregrinos-la-concha-cudillero.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -6.1484196,43.5606337,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel Pensión El Pozo</name>
+      <description>https://www.booking.com/hotel/es/pension-el-pozo.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -6.1491568,43.5562608,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boogalow Hostel</name>
+      <description>https://www.booking.com/hotel/es/boogalow-hostel.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -5.65972,43.54196,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alda Miramar Rooms</name>
+      <description>https://www.booking.com/hotel/es/hostal-alda-miramar.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -5.6637562,43.5429158,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Casa Verde</name>
+      <description>https://www.booking.com/hotel/es/albergue-llanes-playa-de-poo.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -4.7828261,43.426533,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Albergue Hostel Llanes</name>
+      <description>https://www.booking.com/hotel/es/hostel-llanes-llanes62.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -4.7543961,43.4188568,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Enjoy Santander</name>
+      <description>https://www.booking.com/hotel/es/bcool-santander.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.7955181,43.4646236,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alojamientos Cantíber</name>
+      <description>https://www.booking.com/hotel/es/alojamientos-cantiber-santander.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.8145958,43.4616072,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hostel Allegro</name>
+      <description>https://www.booking.com/hotel/es/hostel-allegro-in-santander.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.8148759,43.4599133,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[El Hostel & Co]]></name>
+      <description>https://www.booking.com/hotel/es/hostelco.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.8114347,43.4591494,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dormir en Langre Wayve House | Hostel | Alojamiento</name>
+      <description>https://www.booking.com/hotel/es/langre-wayve-house.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.6989288,43.4735374,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PLEA Beach House</name>
+      <description>https://www.booking.com/hotel/es/plea-beach-house.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.7186377,43.4642238,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casa Loopez (antiguo Albergue El Buen Pastor)</name>
+      <description>https://www.booking.com/hotel/es/casa-loopez-laredo11.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.4114289,43.4114875,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pensión en Santoña - CASA LEÓN</name>
+      <description>https://www.booking.com/hotel/es/alojamiento-casa-leon.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -3.4598416,43.4418883,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Moon Hostel Bio</name>
+      <description>https://www.booking.com/hotel/es/moon-hostel-bio.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.9467539,43.2722971,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Uri hostel bilbao</name>
+      <description>https://www.booking.com/hotel/es/uri-hostel-bilbao.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.9210766,43.2679677,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ekoos Hostel Bilbao</name>
+      <description>https://www.booking.com/hotel/es/ekoos-hostel-bilbao.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.931551,43.255623,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zarautz Hostel</name>
+      <description>https://www.booking.com/hotel/es/zarautz-hostel-zarautz.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.158894,43.28461,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kein Hostel</name>
+      <description>https://www.booking.com/hotel/es/kein-hostel.es.html?aid=1131891</description>
+      <styleUrl>#icon-1602-0288D1</styleUrl>
+      <Point>
+        <coordinates>
+          -2.1728012,43.2868922,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
