@@ -1,5 +1,23 @@
 CREATE SCHEMA IF NOT EXISTS peregrinapp;
 
+CREATE TABLE peregrinapp.users (
+    phone_number VARCHAR(20) PRIMARY KEY,
+    nickname VARCHAR(50) UNIQUE NOT NULL,
+    date_of_birth DATE,
+    bio TEXT,
+    is_activated BOOLEAN DEFAULT FALSE,
+    password_hash VARCHAR(60),
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE peregrinapp.activation_codes (
+    id SERIAL PRIMARY KEY,
+    phone_number VARCHAR(20) NOT NULL,
+    activation_code VARCHAR(6) NOT NULL,
+    expires_at TIMESTAMP NOT NULL,
+    FOREIGN KEY (phone_number) REFERENCES peregrinapp.users(phone_number) ON DELETE CASCADE
+);
+
 CREATE TABLE IF NOT EXISTS peregrinapp.hostels (
     id INTEGER PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
