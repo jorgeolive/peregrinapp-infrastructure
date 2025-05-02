@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   postgis:
-    image: postgis/postgis:17-3.5  # Official PostGIS image
+    image: postgis/postgis:17-3.5
     container_name: postgis
     restart: always
     environment:
@@ -45,8 +45,21 @@ services:
       - pgadmin_data:/var/lib/pgadmin
     depends_on:
       - postgis
+      
+  peregrinapp:
+    build: .
+    container_name: peregrinapp
+    restart: always
+    depends_on:
+      - postgis
+    environment:
+      - PORT=3000
+      - DATABASE_URL=postgresql://admin:admin@postgis:5432/geodata
+      - JWT_SECRET=changethissecretkey
+    ports:
+      - "3000:3000"
 
 volumes:
   postgis_data:
   geoserver_data:
-  pgadmin_data:
+  pgadmin_data: 
