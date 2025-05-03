@@ -1,8 +1,24 @@
-# Docker Backup and Restore Scripts
+# PeregrinApp GeoServer Infrastructure
+
+## Building and Running the Infrastructure
+
+The infrastructure uses Docker Compose to run multiple services. The `build_and_run.ps1` script automates the process of building and starting all required containers:
+
+1. Checks if Docker is running
+2. Verifies the peregrinapp_backend image exists (tries to pull from Docker Hub if not found locally)
+3. Builds the custom geoserver-with-vectortiles image
+4. Starts the Docker Compose environment with the following services:
+   - PostGIS database (PostgreSQL with spatial extensions)
+   - GeoServer (with vector tiles support)
+   - pgAdmin web interface
+   - PeregrinApp backend service
+
+
+## Docker Backup and Restore Scripts
 
 This repository contains PowerShell scripts for backing up and restoring PostgreSQL and GeoServer data from Docker containers. These scripts allow you to easily transfer your data between different environments or create backups of your current state.
 
-## Prerequisites
+### Prerequisites
 
 - Windows with PowerShell
 - Docker installed and running
@@ -10,9 +26,9 @@ This repository contains PowerShell scripts for backing up and restoring Postgre
   - `postgis` (PostgreSQL/PostGIS container)
   - `geoserver` (GeoServer container)
 
-## PostgreSQL/PostGIS Backup and Restore
+### PostgreSQL/PostGIS Backup and Restore
 
-### Backup PostgreSQL Database
+#### Backup PostgreSQL Database
 
 The `backup_postgis_db.ps1` script creates a SQL dump of your PostgreSQL database.
 
@@ -32,7 +48,7 @@ Default settings:
 
 The backup file will be created in the current directory with the name format: `postgis_db_YYYYMMDD_HHMMSS.sql`
 
-### Restore PostgreSQL Database
+#### Restore PostgreSQL Database
 
 The `restore_postgis_db.ps1` script restores a previously created backup.
 
@@ -53,9 +69,9 @@ The script will:
 3. Create a new database
 4. Restore the backup
 
-## GeoServer Backup and Restore
+### GeoServer Backup and Restore
 
-### Backup GeoServer Data
+#### Backup GeoServer Data
 
 The `backup_geoserver_data.ps1` script creates a compressed archive of your GeoServer data directory.
 
@@ -73,7 +89,7 @@ Default settings:
 
 The backup file will be created in the current directory with the name format: `geoserver_data_YYYYMMDD_HHMMSS.tar.gz`
 
-### Restore GeoServer Data
+#### Restore GeoServer Data
 
 The `restore_geoserver_data.ps1` script restores a previously created GeoServer backup.
 
@@ -95,7 +111,7 @@ The script will:
 
 **Note**: After restoration, GeoServer will restart automatically. Please wait a few moments for it to become fully operational.
 
-## Important Notes
+### Important Notes
 
 1. Always ensure you have enough disk space for backups
 2. Test the restore process in a non-production environment first
@@ -103,7 +119,7 @@ The script will:
 4. The backup files can be used to transfer data between different Docker environments
 5. Make sure the target containers are running before executing the scripts
 
-## Troubleshooting
+### Troubleshooting
 
 If you encounter any errors:
 

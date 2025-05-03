@@ -47,7 +47,7 @@ services:
       - postgis
       
   peregrinapp:
-    build: .
+    iamge: peregrinapp_backend
     container_name: peregrinapp
     restart: always
     depends_on:
