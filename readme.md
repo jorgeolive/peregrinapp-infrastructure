@@ -1,4 +1,4 @@
-# PeregrinApp GeoServer Infrastructure
+# PeregrinApp Infrastructure
 
 ## Building and Running the Infrastructure
 
