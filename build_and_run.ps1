@@ -8,22 +8,6 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 
-# Check if peregrinapp_backend image exists
-Write-Host "Checking if peregrinapp_backend image is available..." -ForegroundColor Cyan
-$backendImageExists = docker images peregrinapp_backend -q
-if (-not $backendImageExists) {
-    # Try to pull from Docker Hub
-    Write-Host "Image not found locally, trying to pull from Docker Hub..." -ForegroundColor Yellow
-    docker pull peregrinapp_backend 2>&1 | Out-Null
-    
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host "Error: peregrinapp_backend image is not available locally or on Docker Hub." -ForegroundColor Red
-        Write-Host "Please build the image first and try again." -ForegroundColor Red
-        exit 1
-    }
-}
-Write-Host "peregrinapp_backend image is available. Proceeding..." -ForegroundColor Green
-
 # Build the geoserver-with-vectortiles image
 Write-Host "Building geoserver-with-vectortiles image..." -ForegroundColor Cyan
 docker build -t geoserver-with-vectortiles .
@@ -65,7 +49,7 @@ if ($postgisBackup) {
 
 # Find the GeoServer data backup and restore it
 Write-Host "Looking for GeoServer data backup..." -ForegroundColor Cyan
-$geoserverBackup = Get-ChildItem -Path . -Filter "geoserver_data_*.tar" | Select-Object -First 1
+$geoserverBackup = Get-ChildItem -Path . -Filter "geoserver_data_*.tar.gz" | Select-Object -First 1
 if ($geoserverBackup) {
     Write-Host "Found GeoServer backup: $($geoserverBackup.Name)" -ForegroundColor Green
     Write-Host "Restoring GeoServer data..." -ForegroundColor Cyan
@@ -76,7 +60,7 @@ if ($geoserverBackup) {
         Write-Host "GeoServer data restored successfully" -ForegroundColor Green
     }
 } else {
-    Write-Host "No GeoServer backup file found (geoserver_data_*.tar). Skipping restoration." -ForegroundColor Yellow
+    Write-Host "No GeoServer backup file found (geoserver_data_*.tar.gz). Skipping restoration." -ForegroundColor Yellow
 }
 
 # Find and restore backend database

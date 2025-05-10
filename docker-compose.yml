@@ -46,20 +46,17 @@ services:
     depends_on:
       - postgis
       
-  peregrinapp:
-    iamge: peregrinapp_backend
-    container_name: peregrinapp
+  redis:
+    image: redis:alpine
+    container_name: redis
     restart: always
-    depends_on:
-      - postgis
-    environment:
-      - PORT=3000
-      - DATABASE_URL=postgresql://admin:admin@postgis:5432/geodata
-      - JWT_SECRET=changethissecretkey
     ports:
-      - "3000:3000"
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
 
 volumes:
   postgis_data:
   geoserver_data:
-  pgadmin_data: 
+  pgadmin_data:
+  redis_data: 
